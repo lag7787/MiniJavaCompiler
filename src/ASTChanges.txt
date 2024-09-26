@@ -1,0 +1,4 @@
+1. added Declaration field to Identifer.java AST
+2. added NullLiteral.java, which extends the Terminal class
+3. added NULL entry to the TypeKind enum
+4. added Identifier field to ThisRef.java AST

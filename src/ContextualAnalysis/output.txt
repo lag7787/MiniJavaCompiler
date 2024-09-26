@@ -1,0 +1,33 @@
+======= AST Display =========================
+Package
+  ClassDeclList [1]
+  . ClassDecl
+  .   "Pass310" classname
+  .   FieldDeclList [0]
+  .   MethodDeclList [1]
+  .   . (public static) MethodDecl
+  .   .   VOID BaseType
+  .   .   "main" methodname
+  .   .   ParameterDeclList [1]
+  .   .   . ParameterDecl
+  .   .   .   ArrayType
+  .   .   .     UNSUPPORTED BaseType
+  .   .   .   "args"parametername 
+  .   .   StmtList [2]
+  .   .   . VarDeclStmt
+  .   .   .   VarDecl
+  .   .   .     INT BaseType
+  .   .   .     "aa_length" varname
+  .   .   .   LiteralExpr
+  .   .   .     "4" IntLiteral
+  .   .   . VarDeclStmt
+  .   .   .   VarDecl
+  .   .   .     ArrayType
+  .   .   .       INT BaseType
+  .   .   .     "aa" varname
+  .   .   .   NewArrayExpr
+  .   .   .     INT BaseType
+  .   .   .     RefExpr
+  .   .   .       IdRef
+  .   .   .         "aa_length" Identifier
+=============================================
